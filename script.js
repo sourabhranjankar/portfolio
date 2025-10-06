@@ -68,9 +68,9 @@
             const texts = [
                 'Full Stack Developer',
                 'AWS Certified Developer',
-                'Microservices Architect',
-                'React & TypeScript Expert',
-                'Spring Boot Specialist'
+                'Software Developer',
+                'React & TypeScript Developer',
+                'Backend Developer'
             ];
             
             let textIndex = 0;
@@ -281,7 +281,8 @@
         }
 
         // ==================== CUSTOM CURSOR EFFECT (OPTIONAL) ====================
-       
+        // Uncomment to add custom cursor interaction
+        
         document.addEventListener('mousemove', function(e) {
             const cursor = document.createElement('div');
             cursor.className = 'cursor-effect';
@@ -291,4 +292,4 @@
             setTimeout(() => cursor.remove(), 600);
         });
         
-    
+  
