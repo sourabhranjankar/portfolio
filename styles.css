@@ -44,6 +44,27 @@
             text-align: justify;
         }
 
+        .cert-badge {
+          margin-top: 15px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+        
+        .cert-badge iframe {
+          border-radius: 10px;
+          box-shadow: 0 0 10px rgba(59, 130, 246, 0.3);
+        }
+        
+        .timeline-content h3,
+        .timeline-content h4 {
+          color: #60a5fa; /* matches blue accent */
+        }
+        
+        .timeline-date i {
+          color: #facc15; /* gold-like highlight for certificate icon */
+        }
+
         html {
             scroll-behavior: smooth;
         }
@@ -815,3 +836,4 @@
                 padding: 25px;
             }
         }
+
