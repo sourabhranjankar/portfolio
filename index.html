@@ -155,38 +155,59 @@
 
   <!-- Projects Section (UPDATED WITH RESUME PROJECT + GITHUB LINK) -->
 <section id="projects">
-  <h2 class="section-title" data-aos="fade-up">Projects</h2>
+  <h2 class="section-title">Projects</h2>
   <div class="projects-grid">
+
+    <!-- Generative AI Project -->
     <div class="project-card" data-aos="zoom-in">
-      <div class="project-image" style="background: linear-gradient(135deg, #10b981, #3b82f6);">
-        <i class="fas fa-brain"></i>
-        <div class="project-overlay">
-          <span class="btn btn-primary" style="cursor: default;">Data Analytics</span>
-        </div>
+      <div class="project-image">
+        <i class="fas fa-robot"></i>
       </div>
       <div class="project-content">
-        <h3>Predictive Modeling on Alzheimer’s Disease and Healthy Aging</h3>
+        <h3>Generative AI Knowledge Assistant</h3>
         <p>
-          Built regression and classification models to analyze CDC aging data and identify key factors influencing cognitive health.
-          Applied Random Forest and K-Means clustering to uncover state-level patterns and visualized insights in Tableau to reveal preventive healthcare trends.
+          Built a conversational LLM assistant to summarize documents and answer FAQs using vector-based retrieval.
+          Integrated OpenAI GPT API with LangChain for semantic search. Deployed serverlessly on AWS Lambda for sub-second responses.
         </p>
         <div class="project-tech">
           <span class="tech-badge">Python</span>
-          <span class="tech-badge">Pandas</span>
-          <span class="tech-badge">NumPy</span>
+          <span class="tech-badge">LangChain</span>
+          <span class="tech-badge">OpenAI</span>
+          <span class="tech-badge">AWS Lambda</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Alzheimer's Project -->
+    <div class="project-card" data-aos="zoom-in">
+      <div class="project-image">
+        <i class="fas fa-brain"></i>
+      </div>
+      <div class="project-content">
+        <h3>Predictive Modeling – Alzheimer’s & Healthy Aging</h3>
+        <p>
+          Built ML models analyzing CDC aging data to identify cognitive health factors.
+          Applied Random Forest and K-Means clustering for state-level patterns.
+          Visualized insights in Tableau for preventive healthcare trends.
+        </p>
+        <div class="project-tech">
+          <span class="tech-badge">Python</span>
           <span class="tech-badge">scikit-learn</span>
           <span class="tech-badge">Tableau</span>
+          <span class="tech-badge">Data Analysis</span>
         </div>
-        <!-- Added GitHub Project Link -->
-        <div class="project-links" style="margin-top: 10px;">
-          <a href="https://github.com/sourabhranjankar/Chronic_Disease_Prediction_and_Wellness_Analytics" 
-             target="_blank" 
+
+        <!-- ✅ Added Project Button -->
+        <div class="project-links" style="margin-top: 15px;">
+          <a href="https://github.com/sourabhranjankar/Chronic_Disease_Prediction_and_Wellness_Analytics"
+             target="_blank"
              class="btn btn-secondary">
             <i class="fab fa-github"></i> View Project
           </a>
         </div>
       </div>
     </div>
+
   </div>
 </section>
 

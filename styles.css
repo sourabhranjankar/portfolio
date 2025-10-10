@@ -837,3 +837,16 @@
             }
         }
 
+        .project-links {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.project-links .btn {
+  font-size: 14px;
+  padding: 10px 20px;
+  border-radius: 30px;
+  text-decoration: none;
+}
+
+
