@@ -228,7 +228,7 @@ function initFormValidation() {
                 .then(response => {
                     if (response.ok) {
                         alert('Message sent successfully! I will get back to you soon.');
-                        form.reset();
+                        form.submit();
                     } else {
                         alert('Something went wrong. Please try again.');
                     }
