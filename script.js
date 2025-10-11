@@ -221,20 +221,21 @@ function initFormValidation() {
         }
 
         if (isValid) {
-            fetch(form.action, {
-                method: 'POST',
-                body: new FormData(form)
-            })
-                .then(response => {
-                    if (response.ok) {
-                        alert('Message sent successfully! I will get back to you soon.');
-                        form.submit();
-                    } else {
-                        alert('Something went wrong. Please try again.');
-                    }
-                })
-                .catch(() => alert('Network error. Please try again later.'));
+    fetch(form.action, {
+        method: 'POST',
+        body: new FormData(form)
+    })
+    .then(response => {
+        if (response.ok) {
+            alert('Message sent successfully! I will get back to you soon.');
+            form.reset(); // optional: clear form after success
+        } else {
+            alert('Something went wrong. Please try again.');
         }
+    })
+    .catch(() => alert('Network error. Please try again later.'));
+}
+
     });
 
     function showError(errorId) {
